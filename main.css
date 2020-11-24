@@ -1,0 +1,80 @@
+/* General Styling */
+body{
+	background: rgb(33,41,49);
+	background: linear-gradient(90deg, rgba(33,41,49,1) 5%, rgba(18,79,99,1) 50%, rgba(33,41,49,1) 95%);
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	color: #FFFFFF;
+
+}
+.my-button{
+	background-color: rgba(18,79,99,1);
+	color: #FFF;
+	font-weight: bold;
+}
+.row{
+	margin:auto;
+}
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+.custom-col{
+	background-color: #FFF;
+	font-size: 1.5em;
+}
+
+/* Subtitle */
+.subText{
+	/* margin-top: 200em; */
+	font-size: 3.5em;
+	font-style: italic;
+}
+
+/* Title */
+.titleText{
+	font-weight: bold;
+	font-size: 7em;
+	margin-bottom: .5em;
+}
+.text-center{
+	text-align: center;
+}
+/* The header */
+#header{
+	text-align: center;
+	margin-top: 5em;
+	margin-bottom: 3em;
+}
+/* The nav bar */
+#nav{
+	background-color: #5E5E5E;
+	font-size: 2em;
+	height: 5%;
+	color: #000000;
+}
+nav>a{
+	padding: .3em;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5em;
+	border-color: #000;
+}
+nav>a:hover{
+	border-color: #FFF;
+
+}
+/* The body */
+#body{
+	color: #000;
+}
+
+/* Img Transforms */
+.img-zoom{
+	transition: transform .1s
+}
+.img-zoom:hover{
+	transform: scale(1.2);
+}
+.img-container{
+	overflow: hidden;
+}
